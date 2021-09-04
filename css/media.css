@@ -1,0 +1,212 @@
+@media (max-width: 576px) {
+    #BackPacking {
+        height: 68.5vh;
+    }
+    .backpacking_image {
+        width: 100%;
+        height: 170px;
+        background-image: url("../images/Rectangle\ 1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .logo {
+        margin-left: 23px;
+    }
+    .personal_info {
+        margin-right: 0px;
+        width: 70px;
+        height: 34px;
+    }
+    .backpacking_data {
+        width: 335px;
+        height: 311px;
+        left: 5%;
+        top: 190px;
+    }
+    .data_title {
+        text-align: center;
+    }
+    .data_title h1 {
+        width: 335px;
+        height: 85px;
+        margin-top: 12px;
+        line-height: 30px;
+        font-size: 19px;
+        margin-left: 0px;
+    }
+    .data_text {
+        margin-top: 0px;
+        width: 319px;
+        height: 96px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .data_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .explore_btn {
+        margin: 20px auto;
+    }
+    .backpacking_easycamper_cards {
+        margin-left: 0px;
+    }
+    .easy_camper_cards {
+        display: grid;
+        column-count: 3;
+        gap: 41px;
+        grid-template-columns: none;
+    }
+    .camper_card img {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .camper_card_data {
+        text-align: center;
+    }
+    #MakingFacility {
+        margin-top: 190px;
+    }
+    .backpacking_makingfacility_cards {
+        margin-left: 0px;
+    }
+    .making_facility_cards {
+        display: grid;
+        grid-template-columns: none;
+        gap: 46px;
+        margin-top: 66px;
+    }
+    .making_card {
+        text-align: center;
+    }
+    .making_title {
+        margin-top: 26.33px;
+    }
+    #JoinCommunityManagers {
+        margin-top: 190px;
+    }
+    .joincommunity {
+        display: grid;
+        grid-template-columns: none;
+        gap: 10px;
+    }
+    .joincommunity_left_data {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .left_data_text {
+        margin-left: 0px;
+    }
+    .joincommunity_title {
+        width: 370px;
+        text-align: center;
+        font-size: 33px;
+    }
+    .joincommunity_about {
+        width: 370px;
+        text-align: center;
+    }
+    .joincommunity_btn {
+        margin: 48px auto;
+    }
+    .right_data_images_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .person_about {
+        margin-top: 5px;
+    }
+    .data_image_card {
+        margin-top: 35px;
+    }
+    #OurAdvantages {
+        margin-top: 190px;
+    }
+    .backpacking_title {
+        font-size: 33px;
+        text-align: center;
+    }
+    .advantages_cards {
+        display: grid;
+        grid-template-columns: none;
+    }
+    #FooterBackPacking {
+        margin-top: 90px;
+        height: 170vh;
+    }
+    .footer_top_data {
+        padding: 33px 90px;
+        display: block;
+    }
+    .discover_network {
+        padding: 20px 0px;
+    }
+    .manager_network {
+        padding: 20px 0px;
+    }
+    .asistance_network {
+        padding: 20px 0px;
+    }
+    .end_footer {
+        display: block;
+        margin-left: 0px;
+    }
+    .footer_menu {
+        margin-top: 10px;
+        width: 360px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #BackPacking {
+        width: 162%;
+        height: 100vh;
+    }
+    .backpacking_navbar {
+        width: 162%;
+    }
+    #EasyCamper {
+        width: 162%;
+    }
+    .backpacking_easycamper_cards {
+        margin: 0px 10px;
+    }
+    #MakingFacility {
+        margin-top: 192px;
+    }
+    .backpacking_makingfacility_cards {
+        margin-left: 15px;
+    }
+    .backpacking_title {
+        width: 101%;
+    }
+    #JoinCommunityManagers {
+        margin-top: 190px;
+        width: 162%;
+    }
+    .joincommunity {
+        display: grid;
+        grid-template-columns: 425px 790px;
+        gap: 1px;
+    }
+    .left_data_text {
+        margin-left: 52px;
+        position: relative;
+    }
+    #OurAdvantages {
+        margin-top: 232px;
+    }
+    .backpacking_makingfacility_cards {
+        margin-left: 15px;
+    }
+    .backpacking_title {
+        width: 101%;
+    }
+    #FooterBackPacking {
+        width: 162%;
+        margin-top: 190px;
+    }
+}
