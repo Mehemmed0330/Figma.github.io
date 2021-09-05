@@ -89,7 +89,6 @@
     .joincommunity {
         display: grid;
         grid-template-columns: none;
-        gap: 10px;
     }
     .joincommunity_left_data {
         width: 100%;
@@ -135,7 +134,6 @@
     }
     #FooterBackPacking {
         margin-top: 90px;
-        height: 170vh;
     }
     .footer_top_data {
         padding: 33px 71px !important;
@@ -175,10 +173,25 @@
         width: 162%;
     }
     .backpacking_easycamper_cards {
-        margin: 0px 10px;
+        margin: 0px 50px;
+    }
+    .easy_camper_cards {
+        display: grid;
+        column-count: 3;
+        gap: 61px;
+        grid-template-columns: 30% 30% 30%;
     }
     #MakingFacility {
         margin-top: 192px;
+    }
+    .making_facility_cards {
+        display: grid;
+        grid-template-columns: 32% 32% 32% 32%;
+        gap: 68px;
+        margin-top: 112px;
+    }
+    .making_about {
+        width: 278px;
     }
     .backpacking_makingfacility_cards {
         margin-left: 15px;
@@ -192,8 +205,8 @@
     }
     .joincommunity {
         display: grid;
-        grid-template-columns: 425px 790px;
-        gap: 1px;
+        grid-template-columns: 30% 65%;
+        gap: 36px;
     }
     .left_data_text {
         margin-left: 52px;
@@ -203,13 +216,19 @@
         margin-top: 232px;
     }
     .backpacking_makingfacility_cards {
-        margin-left: 15px;
+        margin-left: 83px;
+    }
+    .advantages_cards {
+        display: grid;
+        grid-template-columns: 50% 50% 50%;
+        gap: 62px;
+        margin-top: 112px;
     }
     .backpacking_title {
         width: 101%;
     }
     #FooterBackPacking {
-        width: 162%;
+        width: 100%;
         margin-top: 190px;
     }
 }
