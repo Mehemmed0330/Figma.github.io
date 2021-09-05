@@ -242,7 +242,7 @@
     }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .backpacking_easycamper_cards {
         margin-left: 19px;
     }
@@ -297,5 +297,47 @@
         grid-template-columns: 334px 334px 334px;
         gap: 5px;
         margin-top: 112px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1445px) {
+    .backpacking_navbar {
+        width: 139%;
+    }
+    .backpacking_image {
+        width: 139.7%;
+    }
+    .easy_camper_cards {
+        display: grid;
+        column-count: 3;
+        gap: 96px;
+        grid-template-columns: 388px 388px 388px;
+    }
+    .backpacking_easycamper_cards {
+        margin-left: 75px;
+    }
+    .making_facility_cards {
+        display: grid;
+        grid-template-columns: 324px 324px 324px 324px;
+        gap: 29px;
+        margin-top: 112px;
+    }
+    .backpacking_makingfacility_cards {
+        margin-left: 49px;
+    }
+    .joincommunity {
+        display: grid;
+        grid-template-columns: 444px 812px;
+        gap: 69px;
+        margin-left: 59px;
+    }
+    .advantages_cards {
+        display: grid;
+        grid-template-columns: 393px 393px 393px;
+        gap: 92px;
+        margin-top: 112px;
+    }
+    #FooterBackPacking {
+        width: 139.7%;
     }
 }
