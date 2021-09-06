@@ -300,7 +300,8 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1445px) {
+
+/* @media (min-width: 1024px) and (max-width: 1445px) {
     .backpacking_navbar {
         width: 139%;
     }
@@ -340,4 +341,4 @@
     #FooterBackPacking {
         width: 139.7%;
     }
-}
+} */
